@@ -7,7 +7,7 @@
 **Pricing:** Free
 **Transport:** stdio (local)
 **Runtime:** Python 3.9+, zero dependencies
-**Install command:** `pip install kjv-verse-mcp` *(or from the repo: `pip install git+https://github.com/<OWNER>/kjv-verse-mcp`)*
+**Install command:** `pip install git+https://github.com/monriah-studio/kjv-verse-mcp`
 **Run command:** `kjv-verse-mcp`
 **Required env vars / secrets:** none
 **Network access:** none (fully offline)
