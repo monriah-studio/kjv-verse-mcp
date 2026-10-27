@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kjv-verse-mcp"
+version = "1.0.0"
+description = "Offline King James Version (public domain) verse lookup and search as an MCP server. Zero dependencies."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+keywords = ["mcp", "model-context-protocol", "bible", "kjv", "scripture", "verse"]
+classifiers = ["License :: OSI Approved :: MIT License", "Programming Language :: Python :: 3", "Topic :: Religion"]
+
+[project.scripts]
+kjv-verse-mcp = "kjv_verse_mcp.server:main"
+
+[tool.setuptools]
+packages = ["kjv_verse_mcp"]
+
+[tool.setuptools.package-data]
+kjv_verse_mcp = ["data/kjv.tsv.gz"]
